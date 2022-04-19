@@ -12,4 +12,5 @@ Unless required by applicable law or agreed to in writing, software distributed 
 --------------------------
 
 /metrics: STATA code to measure completion and burden of EHR alerts by using EHR activity data
+
 /cna: R code to assess factors coincided with alert completion
