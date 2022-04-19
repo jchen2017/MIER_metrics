@@ -693,7 +693,7 @@ end
 
 
 
-/*
+//*
 foreach enc_type in allEnc selEnc { // selEnc allEnc 
 	log using "logfiles/analyze_TS_completion_`enc_type'.log", replace
 	analyze_TS_completion `enc_type'
@@ -701,7 +701,7 @@ foreach enc_type in allEnc selEnc { // selEnc allEnc
 }
 */
 
-/*
+//*
 log using "logfiles/analyze_TT_completion_allEnc.log", replace
 analyze_TT_completion
 log close
@@ -723,9 +723,3 @@ log close
 */
 
 
-
-/*
-log using "logfiles/patient_character.log", replace
-patient_character
-log close
-*/
