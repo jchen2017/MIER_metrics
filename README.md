@@ -1,9 +1,12 @@
 # MIER_metrics
-code for Aim1 of the MIER (Monitoring Implementation using Electronic health Records) project
+code for MIER (Monitoring Implementation using Electronic health Records) project and the 2023 paper 
+published in JMIR Medical Informatics 
+
+Jinying Chen, Sarah Cutrona, Ajay Dharod, Stephanie C. Bunch, Kristie L. Foley, Brian Ostasiewski, Erica Hale, Aaron Bridges, Adam Moses, Eric C. Donny, Erin L. Sutfin, Thomas K. Houston, on behalf of iDAPT (Implementation & Informatics Developing Adaptable Processes and Technologies for Cancer Control) Implementation Science Center for Cancer Control. Monitoring implementation of tobacco cessation tools: using novel electronic health record activity metrics. JMIR Medical Informatics. (in press) 
 
 -------------------------
 
-copyright 2022 Jinying Chen, iDAPT Cancer Control Center, Wake Forest School of Medicine & UMass Chan Medical School
+copyright 2023 Jinying Chen, iDAPT Cancer Control Center, Wake Forest School of Medicine
 
 Licensed under the MIT License (the "License"); you may not use this file except in compliance with the License.
 
@@ -13,4 +16,3 @@ Unless required by applicable law or agreed to in writing, software distributed 
 
 /metrics: STATA code to measure completion and burden of EHR alerts by using EHR activity data
 
-/cna: R code to assess factors coincided with alert completion
