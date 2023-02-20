@@ -159,6 +159,14 @@ program define analyze_TS_completion
 	(max) screened*, by(encounter_num)
 	label value period peri_l
 	
+	dis "== percent of encounters where interruptive TS alerts were acknowledged to be completed =="
+	tab screened_ack_i  if screened_ack == 1
+	
+	
+	dis "== percent of encounters where noninterruptive TS alerts were acknowledged to be completed =="
+	tab screened_ack_ni  if screened_ack == 1
+
+
 	merge m:1 dept_abbreviation using input/clinic_factors.dta
 	drop _merge
 	
@@ -823,7 +831,7 @@ end
 
 
 
-/*
+//*
 foreach enc_type in allEnc { 
 	log using "logfiles/analyze_TS_completion_`enc_type'.log", replace
 	analyze_TS_completion `enc_type'
@@ -831,7 +839,7 @@ foreach enc_type in allEnc {
 }
 */
 
-/*
+//*
 log using "logfiles/analyze_TT_completion_allEnc.log", replace
 analyze_TT_completion
 log close
@@ -844,7 +852,9 @@ foreach enc_type in allEnc {
 	analyze_TS_burden `enc_type'
 	log close
 }
+*/
 
+//*
 log using "logfiles/analyze_TT_burden_allEnc.log", replace
 analyze_TT_burden
 log close
