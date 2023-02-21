@@ -208,6 +208,8 @@ program define analyze_TS_completion
 	
 	if "`enc_type'" == "allEnc" {
 		dis "=== keep all encounter types ==="
+		dis "=== TS completion acknowledged by staff (interruptive vs. noninterruptive) ==="
+		tab screened_ack  sel_enc_grp1 , col chi
 	}
 	else if "`enc_type'" == "selEnc" {
 		dis "=== keep selected encounter types ==="
