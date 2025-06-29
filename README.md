@@ -2,7 +2,7 @@
 code for MIER (Monitoring Implementation using Electronic health Records) project and the 2023 paper 
 published in JMIR Medical Informatics 
 
-Jinying Chen, Sarah Cutrona, Ajay Dharod, Stephanie C. Bunch, Kristie L. Foley, Brian Ostasiewski, Erica Hale, Aaron Bridges, Adam Moses, Eric C. Donny, Erin L. Sutfin, Thomas K. Houston, on behalf of iDAPT (Implementation & Informatics Developing Adaptable Processes and Technologies for Cancer Control) Implementation Science Center for Cancer Control. Monitoring implementation of tobacco cessation tools: using novel electronic health record activity metrics. JMIR Medical Informatics. (in press) 
+Jinying Chen, Sarah Cutrona, Ajay Dharod, Stephanie C. Bunch, Kristie L. Foley, Brian Ostasiewski, Erica Hale, Aaron Bridges, Adam Moses, Eric C. Donny, Erin L. Sutfin, Thomas K. Houston, on behalf of iDAPT (Implementation & Informatics Developing Adaptable Processes and Technologies for Cancer Control) Implementation Science Center for Cancer Control. Monitoring the Implementation of Tobacco Cessation Support Tools: Using Novel Electronic Health Record Activity Metrics. JMIR Med Inform. 2023;11:e43097. PMID: 36862466; PMCID: PMC10020903
 
 -------------------------
 
